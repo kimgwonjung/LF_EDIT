@@ -6,7 +6,7 @@
 The left image shows the overall pipeline of LF Editing, and the right image illustrates the architecture of the Composition Network.
 
 ## Result
-![Result](DEMO/DEMO.gif)
+<img src="DEMO/DEMO.gif" alt="Demo GIF" width="500"/>
 
 ## Setup
 Set up dependencies:
