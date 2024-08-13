@@ -35,7 +35,7 @@ def make_config():
     parser.add_argument('--train_path', type=str, default="./MI_TRAIN_TEST_ALL.csv")
     parser.add_argument('--val_path', type=str, default="./MI_TRAIN_TEST_ALL.csv")
     parser.add_argument('--inference_path', type=str, default="./")
-    parser.add_argument('--output_path', type=str, default="/workspace/REAL_DATA_OUTPUT")
+    parser.add_argument('--output_path', type=str, default="./Result")
     parser.add_argument('--model_path', type=str, default="ckpt.pt")
     parser.add_argument('--sample_interval', type=int, default=3)
     parser.add_argument('--gt_prefix', type=str, default='/workspace/ManagerOffice_bl1_fordemo/GT/')

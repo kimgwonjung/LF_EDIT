@@ -12,4 +12,6 @@ The left image shows the overall pipeline of LF Editing, and the right image ill
 1. Generate a CSV file by writing the file paths of the Train, Validation, and Test images.
 2. Run a Light Field Editing model:  
 ```bash  
-python main.py --train_path <path/to/train.csv> --val_path <path/to/val.csv>
+python main.py --train_path <path/to/train.csv> --val_path <path/to/val.csv>  
+```
+3. The results are written to the folder 'Result'. If you want to specify an output path, use `--output_path <path/to/output_path>.`
