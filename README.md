@@ -10,6 +10,6 @@ The left image shows the overall pipeline of LF Editing, and the right image ill
 
 ## Usage
 1. Generate a CSV file by writing the file paths of the Train, Validation, and Test images.
-2. Run a Light Field Editing model:
+2. Run a Light Field Editing model:  
 '''bash
 python main.py --train_path <path/to/train.csv> --val_path <path/to/val.csv>
