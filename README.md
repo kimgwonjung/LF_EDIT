@@ -16,6 +16,9 @@ pip install -r requirements.txt
 
 ## Usage
 1. Generate a CSV file by writing the file paths of the Train, Validation, and Test images.
+```bash
+python make_datalist.py
+```
 2. Run a Light Field Editing model:  
 ```bash  
 python main.py --train_path <path/to/train.csv> --val_path <path/to/val.csv>  
